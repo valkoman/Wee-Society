@@ -94,13 +94,47 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   html {
+        box-sizing: border-box;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
 
+      html {
+        background-color: #31AF4F;
+      }
 
+      body {
+        font-family: futura, ariel, helvetica, sans-serif;
+        line-height: 1.4;
+        max-width: 1024px;
+        margin: 0 auto;
+        background-color: #fff;
+      }
 
+      ul {
+        list-style-type: none;
+      }
 
+      .page-header {
+        border: 1px solid black;
+      }
 
+      .social-nav {
+        border: 1px solid black;
+      }
 
+      .page-article {
+        border: 1px solid black;
+        float: left;
+        padding:
+      }
 
+      .page-footer {
+        border: 1px solid black;
+        clear: both;
+      }
 
 
 
