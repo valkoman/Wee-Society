@@ -136,9 +136,13 @@ textarea {
       }
 
       .page-header .main-nav {
+        border: 1px solid black;
+      }
+      .page-header img {
+        border: 1px solid black;
         position: absolute;
         top: 1em;
-        right: 5em;
+        left: 1em;
       }
       .page-section {
         padding: 1em;
@@ -150,15 +154,36 @@ textarea {
       }
 
       .project-thumb {
+        position: relative;
         border: 3px solid black;
         float: left;
+      }
+
+      .project-thumb img {
+        position: relative;
+      }
+      .project-thumb h2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        text-align: center;
+        color: #fff;
+        font-size: 1.4em;
+        z-index: 10;
       }
 
       .page-footer {
         clear: both;
         color: #A8A39A;
+        border: 1px solid black;
+        background: url('..img/footer.png');
       }
 
+      .page-footer img {
+        border: 1px solid black;
+      }
 
 
 
