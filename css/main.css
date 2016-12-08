@@ -113,27 +113,50 @@ textarea {
         background-color: #fff;
       }
 
+      h1 {
+
+      }
+
+      h2 {
+        font-size: 1em;
+        font-weight: lighter;
+      }
+      img {
+        max-width: 100%;
+      }
+
       ul {
         list-style-type: none;
       }
 
       .page-header {
         border: 1px solid black;
+        color: #A8A39A;
+        position: relative;
+      }
+
+      .page-header .main-nav {
+        position: absolute;
+        top: 1em;
+        right: 5em;
+      }
+      .page-section {
+        padding: 1em;
+        margin: 25px;
       }
 
       .social-nav {
         border: 1px solid black;
       }
 
-      .page-article {
-        border: 1px solid black;
+      .project-thumb {
+        border: 3px solid black;
         float: left;
-        padding:
       }
 
       .page-footer {
-        border: 1px solid black;
         clear: both;
+        color: #A8A39A;
       }
 
 
