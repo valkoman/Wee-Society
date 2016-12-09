@@ -123,8 +123,18 @@ textarea {
       }
 
       h2 {
+
+      }
+
+      h3 {
         font-size: 1em;
         font-weight: lighter;
+      }
+
+      h4{
+        font-size: 0.7em;
+        font-weight: lighter;
+        line-height: 0.7em;
       }
       img {
         max-width: 100%;
@@ -135,7 +145,7 @@ textarea {
         padding: 0;
         margin: 0;
       }
-
+/* HEADER */
       .page-header {
         border: 1px solid black;
         color: #A8A39A;
@@ -157,13 +167,15 @@ textarea {
         top: 1em;
         right: 1em;
       }
+/*HEADER SOCIAL*/
+      .social {
+        border: 1px solid black;
+      }
+
+/*MAIN CONTENT*/
       .page-section {
         padding: 1em;
         margin: 25px;
-      }
-
-      .social-nav {
-        border: 1px solid black;
       }
 
       .project-thumb {
@@ -175,7 +187,8 @@ textarea {
       .project-thumb img {
         position: relative;
       }
-      .project-thumb h2{
+
+      .project-thumb h3{
         position: absolute;
         top: 50%;
         left: 50%;
@@ -183,57 +196,85 @@ textarea {
         margin: 0;
         text-align: center;
         color: #fff;
-        font-size: 1.4em;
+        font-size: 1.2em;
         z-index: 10;
-        width: 109%;
+        width: 103%;
         background: #FECA31;
         padding: 1em;
         display: none;
       }
-      .project-thumb:hover h2{
+
+      .project-thumb:hover h3{
         display: block;
       }
+/*FOOTER*/
       .page-footer {
         clear: both;
         color: #A8A39A;
-        border: 1px solid black;
         background: url('..img/footer.png');
+        position: relative;
       }
 
       .page-footer img {
         z-index: -10;
       }
 
+      .aside {
+        z-index: 10;
+        position: absolute;
+        top: 1em;
+        left: 1.75em;
+      }
+
       .page-footer .footer-nav {
-        border: 1px solid black;
-        float: left;
+        position: absolute;
+        top: 1em;
+        left: 20em;
+        z-index: 10;
       }
 
       .page-footer .footer-nav li {
         display: inline-block;
-        padding: 1em;
+        padding: 1.2em;
       }
+
       .page-footer .footer-nav a {
-        color: #A8A39A;
+        color: black;
         text-decoration: none;
       }
+
       .page-footer .footer-nav .green:hover {
         color: #31AF4F;
       }
+
       .page-footer .footer-nav .red:hover {
         color: #ED5B2E;
       }
+
       .page-footer .footer-nav .blue:hover {
         color: #1DB3E3;
       }
+
       .page-footer .footer-nav .pink:hover {
         color: #F18492;
       }
+
       .page-footer .social-footer {
-        border: 1px solid black;
+      
       }
 
+      .social-footer {
+        z-index: 10;
+        position: absolute;
+        top: 1.3em;
+        right: 6em;
+      }
 
+      .social-footer li{
+        display: inline-block;
+        padding: 0.5em;
+        font-size: 1.2em;
+      }
 
 
 
