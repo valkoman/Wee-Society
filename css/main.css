@@ -145,6 +145,10 @@ textarea {
         padding: 0;
         margin: 0;
       }
+
+      a {
+        color: #A8A39A;
+      }
 /* HEADER */
       .page-header {
         border: 1px solid black;
@@ -259,10 +263,6 @@ textarea {
         color: #F18492;
       }
 
-      .page-footer .social-footer {
-      
-      }
-
       .social-footer {
         z-index: 10;
         position: absolute;
@@ -276,7 +276,13 @@ textarea {
         font-size: 1.2em;
       }
 
+      .social-footer a:hover {
+        color: #1DB3E3;
+      }
 
+      .aside a:hover {
+        color: black;
+      }
 
 
 /* ==========================================================================
