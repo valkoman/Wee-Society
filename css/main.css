@@ -119,11 +119,12 @@ textarea {
         color: black;
         text-transform: lowercase;
         position: absolute;
-        left: 2.2em;
+        left: 2.5em;
       }
 
       h2 {
-
+        font-size: 1.5em;
+        font-weight: lighter;
       }
 
       h3 {
@@ -151,19 +152,30 @@ textarea {
       }
 /* HEADER */
       .page-header {
-        border: 1px solid black;
         color: #A8A39A;
         position: relative;
+        height: 100%;
       }
 
-      .page-header .main-nav {
-        border: 1px solid black;
-        padding: 1em;
+      .main-nav {
+        position: absolute;
+        left: 22em;
+      }
+
+      .main-nav li {
+        display: inline-block;
+        padding: 0.6em;
+        font-size: 1.2em;
+        font-weight: lighter;
+      }
+      .main-nav a {
+        text-decoration: none;
+        color: black;
       }
       .page-header img {
         position: absolute;
-        top: 1em;
-        left: 1em;
+        top: 1.5em;
+        left: 1.5em;
       }
 
       .header-form {
@@ -172,11 +184,38 @@ textarea {
         right: 1em;
       }
 /*HEADER SOCIAL*/
+
       .social {
-        border: 1px solid black;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 10em;
+        right: 5em;
+        top: 0;
+        z-index: -100;
+      }
+      .social li {
+        background: #ED5B2E;
+        margin: 0.4em 0;
+        padding: 0.4em;
+        color: #fff;
+      }
+
+      .social li:hover {
+        transform: translateX(2em);
+      }
+
+      .social li {
+        transition: 0.25s;
+        transition-timing-function: ease-out;
       }
 
 /*MAIN CONTENT*/
+      .jumbotron {
+        padding-top: 8em;
+      }
+
       .page-section {
         padding: 1em;
         margin: 25px;
@@ -211,6 +250,7 @@ textarea {
       .project-thumb:hover h3{
         display: block;
       }
+
 /*FOOTER*/
       .page-footer {
         clear: both;
