@@ -166,12 +166,24 @@ textarea {
         display: inline-block;
         padding: 0.6em;
         font-size: 1.2em;
-        font-weight: lighter;
       }
       .main-nav a {
         text-decoration: none;
         color: black;
       }
+
+      .main-nav .green:hover {
+        color: #31AF4F;
+      }
+
+      .main-nav .red:hover {
+        color: #ED5B2E;
+      }
+
+      .main-nav .blue:hover {
+        color: #1DB3E3;
+      }
+
       .page-header img {
         position: absolute;
         top: 1.5em;
@@ -181,8 +193,14 @@ textarea {
       .header-form {
         position: absolute;
         top: 1em;
-        right: 1em;
+        right: 2em;
       }
+
+      .header-form p {
+        display: inline-block;
+        padding-right: 0.5em;
+      }
+
 /*HEADER SOCIAL*/
 
       .social {
@@ -196,7 +214,7 @@ textarea {
         z-index: -100;
       }
       .social li {
-        background: #ED5B2E;
+        background: #FECA31;
         margin: 0.4em 0;
         padding: 0.4em;
         color: #fff;
